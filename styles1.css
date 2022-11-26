@@ -1,0 +1,37 @@
+/***********************************TAG SELECTORS*******************/
+h1 {
+    color: red;
+    font-size: 200px;
+}
+
+img:hover {
+    background-color:gold;
+    
+}
+
+/**********************************CLASS SELECTORS**********************/
+
+.bacon {
+    background-color:green;
+}
+
+.broccoli {
+    background-color:red;
+}
+
+.circular {
+    border-radius: 100%;        /*can use class selector like this,but we cant use heading(unique single word only allowed)   */
+}
+
+/*  the above class selector is helpful when we need img s with different background color 
+
+ SYNTAX for CSS:---
+
+Selector { Property:Value; }                 */
+
+/**********************************id SELECTORS**********************/
+
+#heading {                        /*    heading starts with #        */
+    color:blue;
+}
+/*  id's should be unique        */
